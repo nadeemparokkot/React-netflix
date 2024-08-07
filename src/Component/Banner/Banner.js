@@ -1,6 +1,18 @@
+// import React,{useEffect,useState} from 'react'
 import React from 'react'
+
 import './Banner.css'
+// import axios from '../../axios'
+// import { API_KEY } from '../../Constant/constants'
+
 function Banner() {
+    // const[movie,setMovie]=useState()
+    // useEffect(()=>{
+    //     axios.get(`trending/all/week?api_key=${API_KEY}&language=en-US`).then((response)=>{
+    //         console.log(response.data.result[0])
+    //         setMovie(response.data.result[0])
+    //     })
+    // })
     return (
         <div 
          className='banner'>
